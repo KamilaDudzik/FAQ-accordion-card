@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <section class="section">
+    <!-- <img class="illustration" src="./images/illustration-woman-online-desktop.svg" alt="svg illustration"> -->
+    <div class="container card">
+      <h1>Faq</h1>
+      <div class="card__paragraph">
+        <h2 class="card__questions">How many team members can I invite?</h2>
+        <p class="card__answers">
+          You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </p><img class="card__arrow-icon" src="./images/icon-arrow-down.svg" alt="arrow icon">
+      </div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+      <div class="card__paragraph">
+        <h2 class="card__questions">What is the maximum file upload size?</h2>
+        <p class="card__answers">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <img class="card__arrow-icon" src="./images/icon-arrow-down.svg" alt="arrow icon">
+      </div>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+      <div class="card__paragraph">
+        <h2 class="card__questions">How do I reset my password?</h2>
+        <p class="card__answers">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p><img class="card__arrow-icon" src="./images/icon-arrow-down.svg" alt="arrow icon">
+      </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+      <div class="card__paragraph">
+        <h2 class="card__questions">Can I cancel my subscription?</h2>
+        <p class="card__answers">Yes! Send us a message and we'll process your request no questions asked.</p><img
+          class="card__arrow-icon" src="./images/icon-arrow-down.svg" alt="arrow icon">
+      </div>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="card__paragraph">
+        <h2 class="card__questions">Do you provide additional support?</h2>
+        <p class="card__answers">Chat and email support is available 24/7. Phone lines are open during normal business
+          hours.</p><img class="card__arrow-icon" src="./images/icon-arrow-down.svg" alt="arrow icon">
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/KamilaDudzik">Kamila Dudzik</a>.
+      </div>
+      <script src="./js/index.js"></script>
+    </div>
+  </section>
 </body>
+
 </html>

@@ -1,0 +1,16 @@
+.card {
+
+    &__paragraph {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    &__arrow-icon {
+        cursor: pointer;
+    }
+
+    &__answers {
+        display: none;
+    }
+}
